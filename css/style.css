@@ -97,7 +97,7 @@ Last Change:    12/9/2019
 @import url("owl.css");
 @import url("jquery.fancybox.min.css");
 @import url("marquee.css");
-
+@import url("table-style.css");
 /*** 
 
 ====================================================================
@@ -105,7 +105,6 @@ Last Change:    12/9/2019
 ====================================================================
 
  ***/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -2588,6 +2587,10 @@ img {
     text-align: center;
 
     padding: 70px 0px;
+}
+.logo-header img {
+    height: 100%;
+    object-fit: contain;
 }
 
 /*** 
@@ -11427,4 +11430,8 @@ img {
     width: 100%;
     height: 540px;
     margin-bottom: -10px;
+}
+
+.register h3 {
+    color: black;
 }
