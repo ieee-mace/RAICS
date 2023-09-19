@@ -96,6 +96,7 @@ Last Change:    12/9/2019
 @import url("swiper.css");
 @import url("owl.css");
 @import url("jquery.fancybox.min.css");
+@import url("marquee.css");
 
 /*** 
 
@@ -115,6 +116,8 @@ Last Change:    12/9/2019
 html {
     max-width: 100vw;
     overflow-x: hidden;
+
+    scroll-behavior: smooth;
 }
 
 sup {
@@ -8486,7 +8489,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 120px 0 50px;
+    padding: 120px 0 0px;
 }
 
 .main-footer .footer-column {
