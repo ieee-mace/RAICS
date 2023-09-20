@@ -27,6 +27,9 @@
             a(".mobile-menu .close-btn").on("click", function () {
                 a("body").removeClass("mobile-menu-visible");
             }),
+            a(".mobile-menu li").on("click", function () {
+                a("body").removeClass("mobile-menu-visible");
+            }),
             a(".mobile-menu li.dropdown .dropdown-btn").on(
                 "click",
                 function () {
