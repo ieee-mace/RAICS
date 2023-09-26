@@ -1047,6 +1047,16 @@ img {
     transition: all 300ms ease;
 }
 
+.main-header .logo-box .mobile {
+    display: none;
+}
+
+.main-header .auto-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-header .nav-outer {
     position: relative;
     float: right;
@@ -2570,12 +2580,13 @@ img {
 ***/
 
 .logo-header {
-    height: 100px;
+    height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: .25rem;
 }
-.logo-section {
+/* .logo-section {
     padding-top: 20px;
 }
 .logo-section h2 {
@@ -2587,7 +2598,7 @@ img {
     text-align: center;
 
     padding: 70px 0px;
-}
+} */
 .logo-header img {
     height: 100%;
     object-fit: contain;
@@ -8532,6 +8543,10 @@ img {
     position: relative;
     margin-bottom: 5px;
     top: -20px;
+}
+
+.main-footer .logo img{ 
+    height: 75px;
 }
 
 .main-footer .footer-logo figure {
