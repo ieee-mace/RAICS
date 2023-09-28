@@ -1065,6 +1065,7 @@ img {
     -ms-transition: all 600ms ease;
     -o-transition: all 600ms ease;
     transition: all 600ms ease;
+    width: 100%;
 }
 
 .main-header .nav-outer .main-menu {
@@ -1075,6 +1076,12 @@ img {
 .main-menu .navigation {
     position: static;
     margin: 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    
 }
 
 .main-menu .navigation > li {
@@ -1091,7 +1098,7 @@ img {
 .main-menu .navigation > li > a {
     position: relative;
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     font-weight: 500;
     padding: 10px 0;
@@ -1535,6 +1542,10 @@ img {
     padding: 10px 0;
 }
 
+.main-header.fixed-header .main-box{
+    padding-top: 0;
+}
+
 /*** 
 
 ====================================================================
@@ -1573,8 +1584,15 @@ img {
 ***/
 
 .main-header.fixed-header .main-box {
-    padding: 10px 0;
+    padding-bottom: 0px;
     background-color: #101130;
+}
+
+.main-header.main-header.fixed-header .main-box .logo-header{
+    background-color: white;
+    transition: all 1s;
+    padding-top: 10px;
+    height: 70px;
 }
 
 /*** 
@@ -1784,6 +1802,7 @@ img {
 
 .banner-carousel {
     position: relative;
+    
 }
 
 .banner-carousel .slide-item {
@@ -1808,6 +1827,13 @@ img {
 
 .banner-carousel .content-box {
     position: relative;
+}
+
+.banner-carousel .content-box.left{
+    position: absolute;
+}
+.banner-carousel .content-box.right{
+    position: absolute;
 }
 
 .banner-carousel .content-box .title {
@@ -2580,7 +2606,7 @@ img {
 ***/
 
 .logo-header {
-    height: 50px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -10062,6 +10088,9 @@ img {
 .rtl .main-header .nav-outer .main-menu,
 .rtl .main-header .logo-box {
     float: right;
+}
+.main-header .nav-outer .main-menu{
+    width: 100%;
 }
 
 .rtl .blog-categories li a span,
