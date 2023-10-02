@@ -11597,3 +11597,66 @@ img {
 .register h3 {
     color: black;
 }
+
+.venue-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex: 1 1 500px;
+}
+
+.venue-gallery div {
+    padding: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+.venue-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 1rem;
+}
+.venue-gallery a {
+    z-index: 10;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-600 {
+    flex: 1 1 600px;
+}
+.w-full {
+    width: 100%;
+}
+
+/* .venue-gallery div::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.25s;
+    object-fit: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+.venue-gallery div:hover::before {
+    opacity: 1;
+}
+
+.venue-gallery div:nth-of-type(1)::before {
+    background-image: url("http://www.cloud9hotels.in/images/cloud-9-logo.png");
+}
+.venue-gallery div:nth-of-type(2)::before {
+    background-image: url("https://www.silvertipsklm.com/img/logo.png");
+}
+.venue-gallery div:nth-of-type(3)::before {
+    background-image: url("https://hotelkabaniinternational.com/images/logo.png");
+} */
