@@ -117,6 +117,7 @@ html {
     overflow-x: hidden;
 
     scroll-behavior: smooth;
+    scroll-padding-top: 139px;
 }
 
 sup {
@@ -575,7 +576,7 @@ img {
     left: 0;
     top: 0;
     font-size: 16px;
-    content: "\52";
+    content: "\e00a";
     font-family: "ElegantIcons";
     color: #e1137b;
 }
@@ -1025,6 +1026,10 @@ img {
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-header .logo-box {
@@ -1051,7 +1056,7 @@ img {
     display: none;
 }
 
-.main-header .auto-container{
+.main-header .auto-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1065,7 +1070,19 @@ img {
     -ms-transition: all 600ms ease;
     -o-transition: all 600ms ease;
     transition: all 600ms ease;
-    width: 100%;
+    width: 95vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .nav-outer .nav-logo {
+    max-width: 150px;
+}
+.main-header .nav-outer .mobile-nav-toggler {
+    flex: 1 1;
+    text-align: right;
 }
 
 .main-header .nav-outer .main-menu {
@@ -1080,8 +1097,6 @@ img {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-
-    
 }
 
 .main-menu .navigation > li {
@@ -1542,7 +1557,7 @@ img {
     padding: 10px 0;
 }
 
-.main-header.fixed-header .main-box{
+.main-header.fixed-header .main-box {
     padding-top: 0;
 }
 
@@ -1588,11 +1603,19 @@ img {
     background-color: #101130;
 }
 
-.main-header.main-header.fixed-header .main-box .logo-header{
-    background-color: white;
+.logo-header {
+    background-color: rgba(255, 255, 255);
+    border-radius: 1rem;
     transition: all 1s;
-    padding-top: 10px;
-    height: 70px;
+    padding: 5px 0;
+    height: 65px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fixed-header .logo-header {
+    border-radius: 0rem 0rem 1rem 1rem;
 }
 
 /*** 
@@ -1802,7 +1825,6 @@ img {
 
 .banner-carousel {
     position: relative;
-    
 }
 
 .banner-carousel .slide-item {
@@ -1812,6 +1834,8 @@ img {
     background-size: cover;
     padding: 250px 0 200px;
     text-align: center;
+
+    height: 80vh;
 }
 
 .banner-carousel .slide-item:before {
@@ -1821,7 +1845,7 @@ img {
     height: 100%;
     width: 100%;
     background-color: #000000;
-    opacity: 0.7;
+    opacity: 0.25;
     content: "";
 }
 
@@ -1829,11 +1853,41 @@ img {
     position: relative;
 }
 
-.banner-carousel .content-box.left{
+.banner-carousel .content-box.right-bottom,
+.banner-carousel .content-box.left-bottom {
     position: absolute;
+    bottom: 0;
+    width: 50%;
+    padding: 1rem;
 }
-.banner-carousel .content-box.right{
-    position: absolute;
+
+.banner-carousel .content-box.right-bottom .title,
+.banner-carousel .content-box.left-bottom .title {
+    font-size: 2rem;
+}
+
+.banner-carousel .content-box.right-bottom h2,
+.banner-carousel .content-box.left-bottom h2 {
+    font-size: 3rem;
+}
+
+.banner-carousel .content-box.right-bottom {
+    right: 0;
+    text-align: right;
+}
+.banner-carousel .content-box.right-bottom .title,
+.banner-carousel .content-box.right-bottom h2 {
+    text-align: right;
+}
+
+.banner-carousel .content-box.left-bottom {
+    left: 0;
+    text-align: left;
+}
+
+.banner-carousel .content-box.left-bottom .title,
+.banner-carousel .content-box.left-bottom h2 {
+    text-align: left;
 }
 
 .banner-carousel .content-box .title {
@@ -2605,13 +2659,6 @@ img {
 
 ***/
 
-.logo-header {
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: .25rem;
-}
 /* .logo-section {
     padding-top: 20px;
 }
@@ -2628,6 +2675,43 @@ img {
 .logo-header img {
     height: 100%;
     object-fit: contain;
+}
+.logo-header h2 {
+    text-align: center;
+    font-size: min(1.5rem, 2vw);
+    font-weight: 800;
+    line-height: 1.1;
+    vertical-align: bottom;
+
+    color: black;
+
+    /* background: rgb(247, 0, 104);
+    background: -moz-linear-gradient(
+        to left,
+        rgba(247, 0, 104, 1) 0%,
+        rgba(68, 16, 102, 1) 25%,
+        rgba(247, 0, 104, 1) 75%,
+        rgba(68, 16, 102, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        to left,
+        rgba(247, 0, 104, 1) 0%,
+        rgba(68, 16, 102, 1) 25%,
+        rgba(247, 0, 104, 1) 75%,
+        rgba(68, 16, 102, 1) 100%
+    );
+    background: linear-gradient(
+        to left,
+        rgba(247, 0, 104) 0%,
+        rgba(68, 16, 102, 1) 25%,
+        rgba(247, 0, 104, 1) 75%,
+        rgba(68, 16, 102, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066',GradientType=1 );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 /*** 
@@ -3259,7 +3343,7 @@ img {
 
 .features-section-two .title-block .inner-box {
     padding: 50px 30px 0;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .features-section-two .title-block .sec-title {
@@ -3268,6 +3352,16 @@ img {
 
 .features-section-two .title-block .sec-title .title {
     margin-bottom: 5px;
+}
+
+.features-section-two .inner-box .sec-title {
+    margin-top: 2rem;
+}
+.features-section-two .inner-box .sec-title .title {
+    font-size: 1.2rem;
+}
+.features-section-two .inner-box li {
+    font-size: 1.1rem;
 }
 
 .feature-block-two {
@@ -3399,6 +3493,28 @@ img {
 .features-section-two .twist-line-3 {
     left: 90px;
     top: 50px;
+}
+
+.features-section-two .anim-icons.invert .twist-line-1 {
+    left: auto;
+    top: auto;
+    right: 110px;
+    bottom: 290px;
+    z-index: 100;
+}
+
+.features-section-two .anim-icons.invert .twist-line-2 {
+    left: auto;
+    top: auto;
+    right: -10%;
+    bottom: 80px;
+}
+
+.features-section-two .anim-icons.invert .twist-line-3 {
+    left: auto;
+    top: auto;
+    right: 90px;
+    bottom: 50px;
 }
 
 .twist-line-1 {
@@ -3704,7 +3820,7 @@ img {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(28, 139, 210, 0.5);
+    background-color: #101130;
     content: "";
 }
 
@@ -4486,7 +4602,7 @@ img {
     right: 0;
     padding: 1rem 0.1rem;
     width: 60%;
-    height: 100%;`````````````
+    height: 100%;
 
     font-family: inherit;
 
@@ -8571,7 +8687,7 @@ img {
     top: -20px;
 }
 
-.main-footer .logo img{ 
+.main-footer .logo img {
     height: 75px;
 }
 
@@ -10089,10 +10205,12 @@ img {
 .rtl .main-header .logo-box {
     float: right;
 }
-.main-header .nav-outer .main-menu{
+.main-header .nav-outer .main-menu {
     width: 100%;
 }
-
+.main-header .nav-outer {
+    margin: 0.75rem 0;
+}
 .rtl .blog-categories li a span,
 .rtl .fluid-section-one .content-column,
 .rtl .main-header .nav-outer {
@@ -11479,3 +11597,66 @@ img {
 .register h3 {
     color: black;
 }
+
+.venue-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex: 1 1 500px;
+}
+
+.venue-gallery div {
+    padding: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+.venue-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 1rem;
+}
+.venue-gallery a {
+    z-index: 10;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-600 {
+    flex: 1 1 600px;
+}
+.w-full {
+    width: 100%;
+}
+
+/* .venue-gallery div::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.25s;
+    object-fit: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+.venue-gallery div:hover::before {
+    opacity: 1;
+}
+
+.venue-gallery div:nth-of-type(1)::before {
+    background-image: url("http://www.cloud9hotels.in/images/cloud-9-logo.png");
+}
+.venue-gallery div:nth-of-type(2)::before {
+    background-image: url("https://www.silvertipsklm.com/img/logo.png");
+}
+.venue-gallery div:nth-of-type(3)::before {
+    background-image: url("https://hotelkabaniinternational.com/images/logo.png");
+} */
