@@ -117,6 +117,7 @@ html {
     overflow-x: hidden;
 
     scroll-behavior: smooth;
+    scroll-padding-top: 139px;
 }
 
 sup {
@@ -575,7 +576,7 @@ img {
     left: 0;
     top: 0;
     font-size: 16px;
-    content: "\52";
+    content: "\e00a";
     font-family: "ElegantIcons";
     color: #e1137b;
 }
@@ -3342,7 +3343,7 @@ img {
 
 .features-section-two .title-block .inner-box {
     padding: 50px 30px 0;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .features-section-two .title-block .sec-title {
@@ -3351,6 +3352,16 @@ img {
 
 .features-section-two .title-block .sec-title .title {
     margin-bottom: 5px;
+}
+
+.features-section-two .inner-box .sec-title {
+    margin-top: 2rem;
+}
+.features-section-two .inner-box .sec-title .title {
+    font-size: 1.2rem;
+}
+.features-section-two .inner-box li {
+    font-size: 1.1rem;
 }
 
 .feature-block-two {
@@ -3482,6 +3493,28 @@ img {
 .features-section-two .twist-line-3 {
     left: 90px;
     top: 50px;
+}
+
+.features-section-two .anim-icons.invert .twist-line-1 {
+    left: auto;
+    top: auto;
+    right: 110px;
+    bottom: 290px;
+    z-index: 100;
+}
+
+.features-section-two .anim-icons.invert .twist-line-2 {
+    left: auto;
+    top: auto;
+    right: -10%;
+    bottom: 80px;
+}
+
+.features-section-two .anim-icons.invert .twist-line-3 {
+    left: auto;
+    top: auto;
+    right: 90px;
+    bottom: 50px;
 }
 
 .twist-line-1 {
@@ -3787,7 +3820,7 @@ img {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(28, 139, 210, 0.5);
+    background-color: #101130;
     content: "";
 }
 
