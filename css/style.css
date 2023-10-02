@@ -1066,6 +1066,19 @@ img {
     -o-transition: all 600ms ease;
     transition: all 600ms ease;
     width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .nav-outer .nav-logo{
+    max-width: 150px;
+    
+}
+.main-header .nav-outer .mobile-nav-toggler {
+    flex: 1 1;
+    text-align: right;
 }
 
 .main-header .nav-outer .main-menu {
