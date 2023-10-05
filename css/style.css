@@ -189,6 +189,7 @@ p,
     line-height: 26px;
     color: #888888;
     font-weight: 400;
+    text-align: justify;
 }
 
 .auto-container {
