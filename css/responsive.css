@@ -598,8 +598,15 @@
     .about-section-two .content-column .sec-title h2,
     .fluid-section-one .content-column h3,
     .video-section .content-box h2,
-    .banner-carousel .content-box h2 {
+    .banner-carousel .content-box h2,
+    .banner-carousel .content-box.left-bottom h2,
+    .banner-carousel .content-box.right-bottom h2 {
         font-size: 30px;
+    }
+
+    .banner-carousel .content-box.left-bottom,
+    .banner-carousel .content-box.right-bottom {
+        padding: 1rem;
     }
 
     .blog-single h2,
