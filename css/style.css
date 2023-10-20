@@ -117,7 +117,7 @@ html {
     overflow-x: hidden;
 
     scroll-behavior: smooth;
-    scroll-padding-top: 139px;
+    scroll-padding-top: 50px;
 }
 
 sup {
@@ -3333,7 +3333,7 @@ img {
 
 .features-section-two {
     position: relative;
-    padding: 120px 0 100px;
+    padding: 0px 0 100px;
 }
 
 .features-section-two .title-block {
