@@ -1,5 +1,6 @@
 .marquee {
     overflow: hidden;
+    --item-size: 300px;
 }
 
 .marquee-content {
@@ -8,7 +9,7 @@
 }
 
 .marquee-item {
-    flex: 0 0 25vw;
+    flex: 0 0 var(--item-size);
 
     padding: 0 0.5rem;
     /*   margin: 0 1vw; */
@@ -30,6 +31,6 @@
         transform: translateX(0);
     }
     100% {
-        transform: translatex(calc(-100vw));
+        transform: translatex(calc(-4 * var(--item-size)));
     }
 }

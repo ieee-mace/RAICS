@@ -3,7 +3,7 @@
     margin: 25px 0;
     font-size: 0.9em;
     font-family: sans-serif;
-    min-width: 400px;
+    width: min(800px, 95vw);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -15,8 +15,9 @@
 
 .styled-table th,
 .styled-table td {
-    padding: 12px min(50px, 5vw);
+    padding: 12px min(50px, 1vw);
     white-space: nowrap;
+    text-align: center;
 }
 
 .styled-table tbody tr {
