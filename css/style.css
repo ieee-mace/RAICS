@@ -2723,7 +2723,7 @@ img {
 
 .about-section {
     position: relative;
-    padding: 120px 0 70px;
+    padding: 0px 0 70px;
 }
 
 .about-section .content-column {
@@ -2911,7 +2911,7 @@ img {
 
 .about-section-two {
     position: relative;
-    padding: 120px 0 70px;
+    padding: 0px 0 70px;
 }
 
 .about-section-two .content-column {
@@ -3138,7 +3138,7 @@ img {
 
 .features-section {
     position: relative;
-    padding: 120px 0 80px;
+    padding: 0 0 80px;
 }
 
 .feature-block {
@@ -3547,7 +3547,7 @@ img {
 
 .features-section-three {
     position: relative;
-    padding: 120px 0 80px;
+    padding: 0px 0 80px;
 }
 
 .features-section-three.no-pd-top {
@@ -3813,7 +3813,7 @@ img {
 
 .speakers-section {
     position: relative;
-    padding: 120px 0 90px;
+    padding: 90px 0;
 }
 
 .speakers-section:before {
@@ -4070,7 +4070,7 @@ img {
 
 .speakers-section-two {
     position: relative;
-    padding: 120px 0 70px;
+    padding: 0px 0 70px;
     overflow: hidden;
 }
 
@@ -4272,7 +4272,7 @@ img {
 
 .speakers-section-three {
     position: relative;
-    padding: 120px 0 90px;
+    padding: 0px 0 90px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4479,7 +4479,7 @@ img {
 
 .speaker-detail {
     position: relative;
-    padding: 120px 0 70px;
+    padding: 0 0 70px;
 }
 
 .speaker-detail .image-column {
@@ -4590,7 +4590,7 @@ img {
 
 .schedule-section {
     position: relative;
-    padding: 120px 0 100px;
+    padding: 0 0 100px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -5192,7 +5192,7 @@ img {
 
 .event-detail {
     position: relative;
-    padding: 120px 0 90px;
+    padding: 0 0 90px;
 }
 
 .event-detail .auto-container {
@@ -5329,7 +5329,7 @@ img {
 
 .pricing-section {
     position: relative;
-    padding: 120px 0 80px;
+    padding: 0 0 80px;
     overflow: hidden;
 }
 
@@ -5607,7 +5607,7 @@ img {
 
 .pricing-section-two {
     position: relative;
-    padding: 120px 0 70px;
+    padding: 0 0 70px;
     overflow: hidden;
 }
 
@@ -5808,7 +5808,7 @@ img {
 
 .pricing-section-three {
     position: relative;
-    padding: 120px 0 70px;
+    padding: 0 0 70px;
     overflow: hidden;
 }
 
@@ -6072,7 +6072,7 @@ img {
 
 .faq-section {
     position: relative;
-    padding: 120px 0 90px;
+    padding: 0 0 90px;
 }
 
 .faq-section .content-column {
@@ -6190,7 +6190,7 @@ img {
 
 .faq-form-section {
     position: relative;
-    padding: 120px 0 120px;
+    padding: 0 0 120px;
     background-color: #fafafa;
 }
 
@@ -6273,7 +6273,7 @@ img {
 .why-choose-us {
     position: relative;
     background-color: #fafafa;
-    padding: 120px 0 70px;
+    padding: 0 0 70px;
 }
 
 .why-choose-us .image-column {
@@ -6407,7 +6407,7 @@ img {
 
 .gallery-section {
     position: relative;
-    padding: 120px 0 90px;
+    padding: 0 0 90px;
 }
 
 .gallery-item {
@@ -6507,7 +6507,7 @@ img {
 
 .event-info-section {
     position: relative;
-    padding: 120px 0 120px;
+    padding: 0 0 120px;
 }
 
 .event-info-section .info-column {
@@ -7490,7 +7490,7 @@ img {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 120px 0 140px;
+    padding: 0 0 140px;
     background-attachment: fixed;
 }
 
@@ -8374,7 +8374,7 @@ img {
 
 .clients-section {
     position: relative;
-    padding: 120px 0 90px;
+    padding: 0 0 90px;
 }
 
 .clients-section:before {
@@ -8641,6 +8641,7 @@ img {
     position: relative;
     background-color: #101130;
     background-image: url(../images/9.jpg);
+    padding-top: 120px;
 }
 
 .main-footer .widgets-section {
@@ -8648,7 +8649,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 120px 0 0px;
+    padding: 0 0 0px;
 }
 
 .main-footer .footer-column {
@@ -9352,7 +9353,7 @@ img {
 
 .sidebar-page-container {
     position: relative;
-    padding: 120px 0px 70px;
+    padding: 0 0px 70px;
 }
 
 .sidebar-page-container .content-side,
@@ -9743,7 +9744,7 @@ img {
 
 .buy-ticket {
     position: relative;
-    padding: 120px 0 100px;
+    padding: 0 0 100px;
 }
 
 .buy-ticket .form-column {
