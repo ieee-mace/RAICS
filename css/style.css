@@ -1095,7 +1095,6 @@ img {
 .main-menu .navigation {
   position: static;
   margin: 0px;
-
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -1115,8 +1114,9 @@ img {
 .main-menu .navigation > li > a {
   position: relative;
   display: block;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: max(calc(1px + 1vw), 5px);
+  word-break: keep-all;
+  line-height: 2ch;
   font-weight: 500;
   padding: 10px 0;
   color: #fefefe;
