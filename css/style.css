@@ -125,6 +125,9 @@ sup {
   font-size: x-small;
 }
 
+header {
+  background-color: #74747447;
+}
 /*** 
 
 ====================================================================
@@ -3340,7 +3343,11 @@ img {
 
 .features-section-two {
   position: relative;
-  padding: 0px 0 100px;
+  /* padding: min(20vh, 250px) 0 100px; */
+}
+
+.committee-- {
+  transform: translateY(120px);
 }
 
 .features-section-two .title-block {
