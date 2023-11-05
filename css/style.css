@@ -125,8 +125,8 @@ sup {
     font-size: x-small;
 }
 
-header {
-    background-color: #74747447;
+header.colored {
+    background-color: #101130;
 }
 /*** 
 
