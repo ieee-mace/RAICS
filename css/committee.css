@@ -23,6 +23,7 @@
   position: relative;
   max-width: 300px;
   min-width: 257px;
+  width: 300px; /*optional*/
   height: 400px;
   border-radius: 10px;
   display: flex;
