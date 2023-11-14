@@ -10,7 +10,7 @@ const comm = {
     "IEEE SSIT Kerala Chapter",
   ],
   "  Dr. Bos Mathew Jos": [
-    "http://unsplash.it/2002?child",
+    "./images/committee/Bos_Mathew.jpg",
     "TPC Chair",
     "Principal Ph.D. ,Electrical and Electronics Engineering ,NIT Trichy Chapter Advisor, IEEE IAS SBC MACE Chapter Advisor, IEEE IE/PELS Jt.Chapter MACE",
   ],
