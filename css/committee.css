@@ -80,3 +80,18 @@ p.committee__designation {
   text-overflow: ellipsis;
   white-space: normal;
 }
+
+@keyframes AutoReveal {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

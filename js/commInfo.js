@@ -2,41 +2,46 @@ const comm = {
   "Dr. Siddharth Shelly": [
     "./images/committee/Siddharth Shelly.jpg",
     "General Chair",
-    "Assistant Professor, Ph.D., Vehicular Ad Hoc Networks, NIT Calicut Chapter Advisor, IEEE ComSoc SBC MACE Chapter Advisor, IEEE RAS SBC MACE",
+    "Assistant Professor, Department of Electronics and Communication, MACE",
   ],
-  " Dr. Varghese Cherian": [
-    "http://unsplash.it/2001?child",
+  "Dr. Varghese Cherian": [
+    "./images/committee/Er. Varghese Cherian.jpg",
     "Co-General Chair",
     "IEEE SSIT Kerala Chapter",
   ],
-  "  Dr. Bos Mathew Jos": [
+  "Dr. Bos Mathew Jos": [
     "./images/committee/Bos_Mathew.jpg",
     "TPC Chair",
-    "Principal Ph.D. ,Electrical and Electronics Engineering ,NIT Trichy Chapter Advisor, IEEE IAS SBC MACE Chapter Advisor, IEEE IE/PELS Jt.Chapter MACE",
+    "Professor, Department of Electrical and Electronics Engineering, MACE Principal, Mar Athanasius College of Engineering Advisor, IEEE IAS SBC MACE and IEEE IE/PELS Jt.Chapter MACE",
   ],
-  " Dr. Reenu George": [
+  "Dr. Kumarvel S": [
+    "./images/committee/Dr. Kumarvel S.png",
+    "TPC Co-Chair",
+    "Department of Electrical Engineering,National Institute of Technology, Calicut, Kerala",
+  ],
+  "Dr. Reenu George": [
     "./images/committee/Reenu George.jpg",
     "Publication Chair",
-    "Assistant Professor , Ph.D. ,Control Systems ,IIT Madras Chapter Advisor, IEEE SPS SBC MACE",
+    "Assistant Professor, Department of Electrical and Electronics Engineering, MACE Advisor, IEEE SPS SBC MACE",
   ],
-  " Dr. Jaison Mathew": [
-    "http://unsplash.it/1004",
+  "Dr. Jaison Mathew": [
+    "./images/committee/Dr. Jaison Mathew .jpg",
     "Publication Co-Chair",
     "Convenor, Conference Activities Board, IEEE Kerala Section",
   ],
-  " Prof. Neethu Salim": [
+  "Prof. Neethu Salim": [
     "./images/committee/Neethu salim.jpg",
     "Publicity chair",
-    "Assistant Professor M.Tech.(Engg/ Sciences) ,Power electronics ,MG University Chapter Advisor, IEEEE WiE AG MACE",
+    "Assistant Professor, Department of Electrical and Electronics Engg., MACE Advisor, IEEE WiE AG MACE",
   ],
-  " Prof. Neema S": [
+  "Prof. Neema S": [
     "./images/committee/neema s .jpg",
     "Finance Committee Chair",
-    "Assistant Professor, M.Tech.(Engg/ Sciences), Electrical And Electronics(Control Systems), College Of Engineering Trivandrum Chapter Advisor, IEEE PES SBC MACE Chapter Advisor, IEEE SIGHT MACE",
+    "Department of Electrical and Electronics Engineering, MACE Branch Counselor, IEEE MACE SB",
   ],
-  " Prof. Nandan S.": [
+  "Prof. Nandan S.": [
     "./images/committee/Prof Nandan S.jpg",
     "Finance Committee Co-Chair",
-    "Treasurer, IEEE Kerala Section Assistant Professor, LBS College of Engineering, Trivandrum",
+    "Treasurer, IEEE Kerala Section",
   ],
 };
