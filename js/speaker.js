@@ -28,6 +28,6 @@ const makeCard = (name, arr) => {
     commContainer.append(a);
 };
 
-for (k in comm) {
-    makeCard(k, comm[k]);
+for (k in speakers) {
+    makeCard(k, speakers[k]);
 }

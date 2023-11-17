@@ -587,7 +587,9 @@ img {
 }
 
 /* List Style Two */
-
+.heading-- {
+    align-self: center;
+}
 .list-style-two {
     position: relative;
 }
