@@ -1,7 +1,28 @@
 @media all and (min-width: 767px) {
   .title__modifier {
     margin-top: 3rem;
+    margin-bottom: 0;
   }
+}
+.title__modifier {
+  margin-bottom: 0;
+}
+
+.committe__section__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.committee_titles {
+  width: 100%;
+  font-size: 2.4rem;
+  margin-block: 3rem 0rem;
+  text-align: center;
+  color: #1e1f36;
+  font-weight: 500;
+  font-family: inherit;
 }
 
 .committee__img {
@@ -31,7 +52,7 @@
   align-items: center;
   box-shadow: 1px 9px 21px 9px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-  transition: all 200ms ease-in-out;
+  transition: all 300ms ease-in-out;
   transform: scale(0.9);
 }
 
