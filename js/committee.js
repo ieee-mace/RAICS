@@ -39,6 +39,8 @@ const TPCCard = document.querySelector(".comm__tpc");
 const publicationCard = document.querySelector(".comm__publication");
 const publicityCard = document.querySelector(".comm__publicity");
 const financeCard = document.querySelector(".comm__finance");
+const orgcontainer = document.querySelector(".comm__org");
+const techcontainer = document.querySelector(".comm__tech");
 
 let commCards = [
   "patrons",
@@ -48,6 +50,7 @@ let commCards = [
   "publicity",
   "finance",
 ];
+
 const committeePpl = {
   patrons: [patronsCard, patrons, "Patrons"],
   gChair: [gChairCard, GeneralChairs, "General Chair"],
@@ -57,28 +60,45 @@ const committeePpl = {
   finance: [financeCard, finance, "Finance Committee Chairs"],
 };
 
-// for (k in comm) {
-//   makeCard(k, comm[k]);
-// }
-
-// for (const section of commCards) {
-//   const title = titleGenerator(committeePpl[section][2]);
-//   //   section.append(title);
-//   console.log(section);
-//   for (const person in committeePpl[section][1]) {
-//     makeCard(
-//       person,
-//       committeePpl[section][1][person],
-//       committeePpl[section][0]
-//     );
-//   }
-//   //   commContainer.append(section);
-// }
 for (const card of commCards) {
-  const title = titleGenerator(committeePpl[card][2]);
-  committeePpl[card][0].append(title);
+  committeePpl[card][0].append(titleGenerator(committeePpl[card][2]));
   for (const person in committeePpl[card][1]) {
     makeCard(person, committeePpl[card][1][person], committeePpl[card][0]);
   }
   commContainer.append(committeePpl[card][0]);
 }
+
+//organsing team
+orgcontainer.append(titleGenerator("Organising Committee"));
+techcontainer.append(titleGenerator("Technical Committee"));
+
+const orglist = document.createElement("ul");
+orglist.classList.add("comm__organising");
+
+for (const person of commOrganizing) {
+  const orglistItem = document.createElement("li");
+
+  for (const detail of person) {
+    orglistItem.innerText += `${detail}, `;
+  }
+
+  orglist.append(orglistItem);
+}
+orgcontainer.append(orglist);
+commContainer.append(orgcontainer);
+
+//technical team
+const techlist = document.createElement("ul");
+techlist.classList.add("comm__technical");
+for (const person of commTechnical) {
+  const techlistItem = document.createElement("li");
+
+  for (const detail of person) {
+    techlistItem.innerText += `${detail}, `;
+  }
+
+  techlist.append(techlistItem);
+}
+
+techcontainer.append(techlist);
+commContainer.append(techcontainer);

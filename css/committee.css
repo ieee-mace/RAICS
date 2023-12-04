@@ -9,6 +9,8 @@
 }
 
 .committe__section__wrapper {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -100,6 +102,22 @@ p.committee__designation {
   -webkit-line-clamp: 4; /* Show 4 lines before ellipsis */
   text-overflow: ellipsis;
   white-space: normal;
+}
+
+.comm__organising,
+.comm__technical {
+  list-style-type: disc;
+  width: 100%;
+}
+
+.comm__organising > *,
+.comm__technical > * {
+  color: #1e1f36;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 5px;
+  margin-left: min(7rem, 7vmax);
 }
 
 @keyframes AutoReveal {
