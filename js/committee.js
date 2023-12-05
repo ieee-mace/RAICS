@@ -21,7 +21,11 @@ const makeCard = (name, arr, container) => {
 
   const commDesignation = document.createElement("p");
   commDesignation.classList.add("committee__designation");
-  commDesignation.innerText = `${arr[1]}, ${arr[2]}`;
+  if (arr[2] == " ") {
+    commDesignation.innerText = `${arr[1]}`;
+  } else {
+    commDesignation.innerText = `${arr[1]}, ${arr[2]}`;
+  }
   commDesignation.title = arr[2];
 
   commText.append(commName);
@@ -70,7 +74,7 @@ for (const card of commCards) {
 
 //organsing team
 orgcontainer.append(titleGenerator("Organising Committee"));
-techcontainer.append(titleGenerator("Technical Committee"));
+techcontainer.append(titleGenerator("Technical Program Committee"));
 
 const orglist = document.createElement("ul");
 orglist.classList.add("comm__organising");
@@ -79,6 +83,10 @@ for (const person of commOrganizing) {
   const orglistItem = document.createElement("li");
 
   for (const detail of person) {
+    if (detail == person[person.length - 1]) {
+      orglistItem.innerText += `${detail}`;
+      continue;
+    }
     orglistItem.innerText += `${detail}, `;
   }
 
@@ -94,6 +102,10 @@ for (const person of commTechnical) {
   const techlistItem = document.createElement("li");
 
   for (const detail of person) {
+    if (detail == person[person.length - 1]) {
+      techlistItem.innerText += `${detail}`;
+      continue;
+    }
     techlistItem.innerText += `${detail}, `;
   }
 
