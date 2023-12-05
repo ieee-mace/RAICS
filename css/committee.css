@@ -108,6 +108,7 @@ p.committee__designation {
 .comm__organising,
 .comm__technical {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .comm__organising > *,
