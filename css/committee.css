@@ -4,6 +4,7 @@
     margin-bottom: 0;
   }
 }
+
 .title__modifier {
   margin-bottom: 0;
 }
@@ -106,12 +107,12 @@ p.committee__designation {
 
 .comm__organising,
 .comm__technical {
-  list-style-type: disc;
   width: 100%;
 }
 
 .comm__organising > *,
 .comm__technical > * {
+  list-style: disc;
   color: #1e1f36;
   font-family: inherit;
   font-weight: 500;
