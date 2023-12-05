@@ -119,7 +119,7 @@ p.committee__designation {
   font-weight: 500;
   font-size: 1.2rem;
   padding: 5px;
-  margin-left: min(7rem, 7vmax);
+  margin-left: min(8rem, 8vmax);
 }
 
 @keyframes AutoReveal {
