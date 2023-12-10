@@ -24,7 +24,7 @@ const makeCardSpeaker = (name, arr) => {
       const redirectButton = document.createElement('a');
       redirectButton.href=arr[3]
       redirectButton.innerHTML=`<button class="know_more">
-         <img src="https://static.thenounproject.com/png/640392-200.png" alt="">
+         <img src="images/know_more.png" alt="">
        </button>`
     commText.append(commName);
     commText.append(commDesignation);
@@ -38,3 +38,4 @@ const makeCardSpeaker = (name, arr) => {
 for (k in speakers) {
     makeCardSpeaker(k, speakers[k]);
 }
+
