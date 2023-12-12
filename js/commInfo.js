@@ -28,7 +28,7 @@ const TPC = {
   "Dr. Bos Mathew Jos": [
     "./images/committee/Bos_Mathew.jpg",
     "",
-    "Professor, Department of Electrical and Electronics Engg, MACE",
+    "Professor, Department of Electrical and Electronics Engineering, MACE",
   ],
   "Dr. Kumarvel S": [
     "./images/committee/Dr. Kumarvel S.png",
@@ -41,7 +41,7 @@ const publication = {
   "Dr. Reenu George": [
     "./images/committee/Reenu George.jpg",
     "",
-    "Assistant Professor, Department of Electrical and Electronics Engineering, MACE Advisor, IEEE SPS SBC MACE",
+    "Assistant Professor, Department of Electrical and Electronics Engineering, MACE",
   ],
   "Dr. Jaison Mathew": [
     "./images/committee/Dr. Jaison Mathew .jpg",
@@ -54,7 +54,7 @@ const publicity = {
   "Prof. Neethu Salim": [
     "./images/committee/Neethu salim.jpg",
     "",
-    "Assistant Professor, Department of Electrical and Electronics Engg, MACE Advisor, IEEE WiE AG MACE",
+    "Assistant Professor, Department of Electrical and Electronics Engineering, MACE",
   ],
 };
 
@@ -62,11 +62,11 @@ const finance = {
   "Prof. Neema S": [
     "./images/committee/neema s .jpg",
     "",
-    "Department of Electrical and Electronics Engineering, MACE",
+    "Assistant Professor,Department of Electrical and Electronics Engineering, MACE",
   ],
   "Prof. Nandan S.": [
     "./images/committee/Prof Nandan S.jpg",
-    "",
+    "Finance Committee Co-Chair",
     "Treasurer, IEEE Kerala Section",
   ],
 };
