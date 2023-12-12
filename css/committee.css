@@ -63,6 +63,17 @@
   transform: scale(0.92);
 }
 
+.committee__card.data:hover::after{
+  position: absolute;
+  content: "";
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+  height: 600px;
+  border-radius: 0rem 0rem 10px 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 4.52%, #000 99.86%);
+
+}
 .committee__card::after {
   position: absolute;
   content: "";
@@ -72,13 +83,14 @@
   height: 300px;
   border-radius: 0rem 0rem 10px 10px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 4.52%, #000 99.86%);
+  transition: height .5s;
 }
 
 .committee__text {
   position: absolute;
   bottom: 20px;
   z-index: 3;
-  max-height: 120px;
+  max-height: 160px;
   width: 80%;
   display: grid;
   overflow: hidden;
@@ -96,7 +108,7 @@
 p.committee__designation {
   font-size: 0.87rem;
   max-width: 100%;
-  min-height: 120px;
+  word-break: keep-all;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -121,6 +133,60 @@ p.committee__designation {
   padding: 5px;
   margin-left: min(8rem, 8vmax);
 }
+
+
+.know_more {
+  /*background: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 2px 6px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;*/
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.know_more:hover,
+.know_more:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: whitesmoke;
+}
+
+.know_more:active {
+  opacity: .5;
+}
+
+.know_more img{
+  width: 20px;
+  height: 20px;
+}
+.know_more:hover img{
+  filter: invert(100);
+}
+
+.know_more a {
+  all: unset;
+}
+
 
 @keyframes AutoReveal {
   0% {
