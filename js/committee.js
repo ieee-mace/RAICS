@@ -57,9 +57,9 @@ let commCards = [
 
 const committeePpl = {
   patrons: [patronsCard, patrons, "Patrons"],
-  gChair: [gChairCard, GeneralChairs, "General Chair"],
-  TPC: [TPCCard, TPC, "TPC Chair"],
-  publication: [publicationCard, publication, "Publication Chair"],
+  gChair: [gChairCard, GeneralChairs, "General Chairs"],
+  TPC: [TPCCard, TPC, "TPC Chairs"],
+  publication: [publicationCard, publication, "Publication Chairs"],
   publicity: [publicityCard, publicity, "Publicity Chair"],
   finance: [financeCard, finance, "Finance Committee Chairs"],
 };
