@@ -14,12 +14,12 @@ const patrons = {
 const GeneralChairs = {
   "Dr. Siddharth Shelly": [
     "./images/committee/Siddharth Shelly.jpg",
-    "General Chair",
+    "",
     "Assistant Professor, Department of Electronics and Communication, MACE",
   ],
   "Dr. Varghese Cherian": [
     "./images/committee/Er. Varghese Cherian.jpg",
-    "Co-General Chair",
+    "",
     "IEEE SSIT Kerala Chapter",
   ],
 };
@@ -32,7 +32,7 @@ const TPC = {
   ],
   "Dr. Kumarvel S": [
     "./images/committee/Dr. Kumarvel S.png",
-    "TPC Co-Chair",
+    "",
     "Department of Electrical Engineering, NIT Calicut",
   ],
 };
@@ -45,7 +45,7 @@ const publication = {
   ],
   "Dr. Jaison Mathew": [
     "./images/committee/Dr. Jaison Mathew .jpg",
-    "Publication Co-Chair",
+    "",
     "Convenor, Conference Activities Board, IEEE Kerala Section",
   ],
 };
