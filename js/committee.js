@@ -24,7 +24,7 @@ const makeCard = (name, arr, container) => {
   if (arr[2] == " ") {
     commDesignation.innerText = `${arr[1]}`;
   } else {
-    commDesignation.innerHTML= `${arr[1]} <br>  ${arr[2]}`;
+    commDesignation.innerHTML = `${arr[1]} ${arr[2]}`;
   }
   commDesignation.title = arr[2];
 
