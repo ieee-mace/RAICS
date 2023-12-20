@@ -15,7 +15,7 @@ const GeneralChairs = {
   "Dr. Siddharth Shelly": [
     "./images/committee/Siddharth Shelly.jpg",
     "",
-    "Assistant Professor, Department of Electronics and Communication, MACE",
+    "Department of Electronics and Communication, MACE",
   ],
   "Dr. Varghese Cherian": [
     "./images/committee/Er. Varghese Cherian.jpg",
@@ -41,7 +41,7 @@ const publication = {
   "Dr. Reenu George": [
     "./images/committee/Reenu George.jpg",
     "",
-    "Assistant Professor, Department of Electrical and Electronics Engineering, MACE",
+    "Department of Electrical and Electronics Engineering, MACE",
   ],
   "Dr. Jaison Mathew": [
     "./images/committee/Dr. Jaison Mathew .jpg",
@@ -54,7 +54,7 @@ const publicity = {
   "Prof. Neethu Salim": [
     "./images/committee/Neethu salim.jpg",
     "",
-    "Assistant Professor, Department of Electrical and Electronics Engineering, MACE",
+    "Department of Electrical and Electronics Engineering, MACE",
   ],
   "Dr. Biju K": [
     "./images/committee/Dr. Biju K.jpeg",
@@ -67,7 +67,7 @@ const finance = {
   "Prof. Neema S": [
     "./images/committee/neema s .jpg",
     "",
-    "Assistant Professor,Department of Electrical and Electronics Engineering, MACE",
+    "Department of Electrical and Electronics Engineering, MACE",
   ],
   "Prof. Nandan S.": [
     "./images/committee/Prof Nandan S.jpg",
