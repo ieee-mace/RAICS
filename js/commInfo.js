@@ -56,6 +56,11 @@ const publicity = {
     "",
     "Assistant Professor, Department of Electrical and Electronics Engineering, MACE",
   ],
+  "Dr. Biju K": [
+    "./images/committee/Dr. Biju K.jpeg",
+    "",
+    "Asst. Director, APJAKTU",
+  ],
 };
 
 const finance = {
