@@ -59,7 +59,7 @@ const publicity = {
   "Dr. Biju K": [
     "./images/committee/Dr. Biju K.jpeg",
     "",
-    "Asst. Director, APJAKTU",
+    "Asst. Director, APJAKTU, <br>Secretary, IEEE Kerala Section",
   ],
 };
 
