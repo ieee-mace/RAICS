@@ -11718,19 +11718,19 @@ a {
     border: 1px solid #888888;
   }
   20% {
-    box-shadow: 0 0px 10px #ffc20b;
+    box-shadow: 0 0px 13px #ffc20b;
     border: 1px solid #ffc20b;
   }
   40% {
-    box-shadow: 0 0px 10px #40cbb4;
+    box-shadow: 0 0px 13px #40cbb4;
     border: 1px solid #40cbb4;
   }
   60% {
-    box-shadow: 0 0px 10px #4c35a9;
+    box-shadow: 0 0px 13px #4c35a9;
     border: 1px solid #4c35a9;
   }
   80% {
-    box-shadow: 0 0px 10px #e6275a;
+    box-shadow: 0 0px 13px #e6275a;
     border: 1px solid #e6275a;
   }
   100% {
