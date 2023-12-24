@@ -29,7 +29,7 @@
 
 .committee_titles {
   width: 100%;
-  font-size: 2.4rem;
+  font-size: min(38.4px, 2.4rem);
   margin-block: 3rem 0rem;
   text-align: center;
   color: #1e1f36;
@@ -89,7 +89,7 @@
   position: absolute;
   bottom: 20px;
   z-index: 3;
-  height: 100px;
+  height: 30%;
   width: 85%;
   overflow: hidden;
 }
@@ -97,14 +97,13 @@
 .committee__text p {
   color: rgb(236, 236, 236);
   text-align: center;
-  font-size: 0.9rem;
-  line-height: 2.4ch;
-  font-size: 1.65rem;
+  line-height: 1.9ch;
+  font-size: min(24px, 1.65rem);
   margin-bottom: 0.4rem;
 }
 
 p.committee__designation {
-  font-size: 1.2rem;
+  font-size: min(17.5px, 1.2rem);
   max-width: 100%;
   height: auto;
   word-break: keep-all;
@@ -128,7 +127,7 @@ p.committee__designation {
   color: #1e1f36;
   font-family: inherit;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: min(19.2px, 1.2rem);
   padding: 5px;
   margin-left: min(8rem, 8vmax);
 }
