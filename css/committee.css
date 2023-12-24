@@ -89,7 +89,8 @@
   position: absolute;
   bottom: 20px;
   z-index: 3;
-  height: 30%;
+  max-height: 30%;
+  height: 8rem;
   width: 85%;
   overflow: hidden;
 }
