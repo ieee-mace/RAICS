@@ -143,4 +143,5 @@ const commTechnical = [
   ["Dr. Vinodh P Vijayan", "Mangalam College of Engineering"],
   ["Dr. Suresh Kallam", "Jain Deemed-to-be University, Karnataka"],
   ["Dr. Shriram Kris Vasudevan"],
+  ["Dr. Nirmal K, eBay, USA"],
 ];
