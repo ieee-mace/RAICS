@@ -115,6 +115,7 @@ const commTechnical = [
   ["Dr. Harigovindan V P", "NIT Puducherry"],
   ["Dr. Suresh Mikkili", "NIT Goa"],
   ["Dr. Shihabudheen K. V.", "NIT Calicut"],
+  ["Dr. Nirmal K, eBay, USA"],
   ["Dr. Subhasree M", "NIT Calicut"],
   ["Dr. S. D. Madhu Kumar", "NIT Calicut"],
   ["Dr. B.Nithya", "NIT Trichy"],
@@ -143,5 +144,4 @@ const commTechnical = [
   ["Dr. Vinodh P Vijayan", "Mangalam College of Engineering"],
   ["Dr. Suresh Kallam", "Jain Deemed-to-be University, Karnataka"],
   ["Dr. Shriram Kris Vasudevan"],
-  ["Dr. Nirmal K, eBay, USA"],
 ];
