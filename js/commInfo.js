@@ -25,10 +25,10 @@ const GeneralChairs = {
 };
 
 const TPC = {
-  "Dr. Bos Mathew Jos": [
-    "./images/committee/Bos_Mathew.jpg",
+  "Dr. Sija Gopinath": [
+    "./images/committee/U-420336-monQD.jpeg",
     "",
-    "Professor, Department of Electrical and Electronics Engineering, MACE",
+    "Department of Electrical and Electronics Engineering, MACE",
   ],
   "Dr. Kumarvel S": [
     "./images/committee/Dr. Kumarvel S.png",
