@@ -25,10 +25,10 @@ const GeneralChairs = {
 };
 
 const TPC = {
-  "Dr. Bos Mathew Jos": [
-    "./images/committee/Bos_Mathew.jpg",
+  "Dr. Sija Gopinath": [
+    "./images/committee/U-420336-monQD.jpeg",
     "",
-    "Professor, Department of Electrical and Electronics Engineering, MACE",
+    "Department of Electrical and Electronics Engineering, MACE",
   ],
   "Dr. Kumarvel S": [
     "./images/committee/Dr. Kumarvel S.png",
@@ -115,6 +115,7 @@ const commTechnical = [
   ["Dr. Harigovindan V P", "NIT Puducherry"],
   ["Dr. Suresh Mikkili", "NIT Goa"],
   ["Dr. Shihabudheen K. V.", "NIT Calicut"],
+  ["Dr. Nirmal K, eBay, USA"],
   ["Dr. Subhasree M", "NIT Calicut"],
   ["Dr. S. D. Madhu Kumar", "NIT Calicut"],
   ["Dr. B.Nithya", "NIT Trichy"],
