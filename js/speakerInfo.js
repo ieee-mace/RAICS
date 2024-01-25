@@ -23,5 +23,16 @@ const speakers = {
     "",
     "https://iitpkd.ac.in/people/jobinfrancis",
   ],
-  "Dr. Jayakumar M ": ["./images/speakers/Jayakumar1.jpg", "ISRO", "", ""],
+  "Dr. Jayakumar M ": [
+    "./images/speakers/Jayakumar1.jpg",
+    "Project Director PSLV, ISRO",
+    "",
+    "",
+  ],
+  "Shriram Kris Vasudevan": [
+    "./images/speakers/Shriram.jpeg",
+    "Lead Technical Evangelist,<br> Asia Pacific and Japan,<br> Intel Technology India Pvt. Ltd",
+    "",
+    "",
+  ],
 };
