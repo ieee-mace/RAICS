@@ -29,7 +29,7 @@ const speakers = {
     "",
     "",
   ],
-  "Shriram Kris Vasudevan": [
+  "Dr. Shriram Kris Vasudevan": [
     "./images/speakers/Shriram.jpeg",
     "Lead Technical Evangelist,<br> Asia Pacific and Japan,<br> Intel Technology India Pvt. Ltd",
     "",
