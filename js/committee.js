@@ -1,38 +1,38 @@
 const titleGenerator = (title) => {
-  const commSectionTitles = document.createElement("h3");
-  commSectionTitles.classList.add("committee_titles");
-  commSectionTitles.innerText = title;
-  return commSectionTitles;
+    const commSectionTitles = document.createElement("h3");
+    commSectionTitles.classList.add("committee_titles");
+    commSectionTitles.innerText = title;
+    return commSectionTitles;
 };
 
 const makeCard = (name, arr, container) => {
-  const card = document.createElement("div");
-  card.classList.add("committee__card");
+    const card = document.createElement("div");
+    card.classList.add("committee__card");
 
-  const commImg = document.createElement("img");
-  commImg.classList.add("committee__img");
-  commImg.src = arr[0];
+    const commImg = document.createElement("img");
+    commImg.classList.add("committee__img");
+    commImg.src = arr[0];
 
-  const commText = document.createElement("div");
-  commText.classList.add("committee__text");
+    const commText = document.createElement("div");
+    commText.classList.add("committee__text");
 
-  const commName = document.createElement("p");
-  commName.innerText = name;
+    const commName = document.createElement("p");
+    commName.innerText = name;
 
-  const commDesignation = document.createElement("p");
-  commDesignation.classList.add("committee__designation");
-  if (arr[2] == " ") {
-    commDesignation.innerText = `${arr[1]}`;
-  } else {
-    commDesignation.innerHTML = `${arr[1]} ${arr[2]}`;
-  }
-  commDesignation.title = arr[2].replace("<br>", "");
+    const commDesignation = document.createElement("p");
+    commDesignation.classList.add("committee__designation");
+    if (arr[2] == " ") {
+        commDesignation.innerText = `${arr[1]}`;
+    } else {
+        commDesignation.innerHTML = `${arr[1]} ${arr[2]}`;
+    }
+    commDesignation.title = arr[2].replace("<br>", "");
 
-  commText.append(commName);
-  commText.append(commDesignation);
-  card.append(commImg);
-  card.append(commText);
-  container.append(card);
+    commText.append(commName);
+    commText.append(commDesignation);
+    card.append(commImg);
+    card.append(commText);
+    container.append(card);
 };
 
 const commContainer = document.querySelector(".committee__cards");
@@ -45,31 +45,34 @@ const publicityCard = document.querySelector(".comm__publicity");
 const financeCard = document.querySelector(".comm__finance");
 const orgcontainer = document.querySelector(".comm__org");
 const techcontainer = document.querySelector(".comm__tech");
+const reviewCard = document.querySelector(".comm__reviewer");
 
 let commCards = [
-  "patrons",
-  "gChair",
-  "TPC",
-  "publication",
-  "publicity",
-  "finance",
+    "patrons",
+    "gChair",
+    "TPC",
+    "publication",
+    "publicity",
+    "finance",
+    "reviewer",
 ];
 
 const committeePpl = {
-  patrons: [patronsCard, patrons, "Patrons"],
-  gChair: [gChairCard, GeneralChairs, "General Chairs"],
-  TPC: [TPCCard, TPC, "TPC Chairs"],
-  publication: [publicationCard, publication, "Publication Chairs"],
-  publicity: [publicityCard, publicity, "Publicity Chair"],
-  finance: [financeCard, finance, "Finance Committee Chairs"],
+    patrons: [patronsCard, patrons, "Patrons"],
+    gChair: [gChairCard, GeneralChairs, "General Chairs"],
+    TPC: [TPCCard, TPC, "TPC Chairs"],
+    publication: [publicationCard, publication, "Publication Chairs"],
+    publicity: [publicityCard, publicity, "Publicity Chair"],
+    finance: [financeCard, finance, "Finance Committee Chairs"],
+    reviewer: [reviewCard, reviewers, "Meta Reviewers"],
 };
 
 for (const card of commCards) {
-  committeePpl[card][0].append(titleGenerator(committeePpl[card][2]));
-  for (const person in committeePpl[card][1]) {
-    makeCard(person, committeePpl[card][1][person], committeePpl[card][0]);
-  }
-  commContainer.append(committeePpl[card][0]);
+    committeePpl[card][0].append(titleGenerator(committeePpl[card][2]));
+    for (const person in committeePpl[card][1]) {
+        makeCard(person, committeePpl[card][1][person], committeePpl[card][0]);
+    }
+    commContainer.append(committeePpl[card][0]);
 }
 
 //organsing team
@@ -80,17 +83,17 @@ const orglist = document.createElement("ul");
 orglist.classList.add("comm__organising");
 
 for (const person of commOrganizing) {
-  const orglistItem = document.createElement("li");
+    const orglistItem = document.createElement("li");
 
-  for (const detail of person) {
-    if (detail == person[person.length - 1]) {
-      orglistItem.innerText += `${detail}`;
-      continue;
+    for (const detail of person) {
+        if (detail == person[person.length - 1]) {
+            orglistItem.innerText += `${detail}`;
+            continue;
+        }
+        orglistItem.innerText += `${detail}, `;
     }
-    orglistItem.innerText += `${detail}, `;
-  }
 
-  orglist.append(orglistItem);
+    orglist.append(orglistItem);
 }
 orgcontainer.append(orglist);
 commContainer.append(orgcontainer);
@@ -99,17 +102,17 @@ commContainer.append(orgcontainer);
 const techlist = document.createElement("ul");
 techlist.classList.add("comm__technical");
 for (const person of commTechnical) {
-  const techlistItem = document.createElement("li");
+    const techlistItem = document.createElement("li");
 
-  for (const detail of person) {
-    if (detail == person[person.length - 1]) {
-      techlistItem.innerText += `${detail}`;
-      continue;
+    for (const detail of person) {
+        if (detail == person[person.length - 1]) {
+            techlistItem.innerText += `${detail}`;
+            continue;
+        }
+        techlistItem.innerText += `${detail}, `;
     }
-    techlistItem.innerText += `${detail}, `;
-  }
 
-  techlist.append(techlistItem);
+    techlist.append(techlistItem);
 }
 
 techcontainer.append(techlist);
