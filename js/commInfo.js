@@ -233,4 +233,12 @@ const reviewers = {
   "Dr. Sujesh p Lal": ["./images/metareviewers/Sujesh p Lal.jpeg", "", "", ""],
   "Dr. Sarika S": ["./images/metareviewers/Dr. Sarika S.jpeg", "", "", ""],
   "Dr. Manju": ["./images/metareviewers/Dr Manju.jpeg", "", "", ""],
+  "Dr. Poornima S": ["./images/metareviewers/Dr. Poornima S.jpeg", "", "", ""],
+  "Dr. Jimsom Mathew": ["./images/speakers/Jimson.jpg", "", "", ""],
+  "Dr. Abhilash Antony": [
+    "./images/metareviewers/Dr. Abhilash Antony.jpeg",
+    "",
+    "",
+    "",
+  ],
 };
