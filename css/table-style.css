@@ -1,51 +1,50 @@
 .styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    width: min(800px, 95vw);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: min(800px, 95vw);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .styled-table thead tr {
-    background-color: #101130;
-    color: #ffffff;
-    text-align: left;
+  background-color: #101130;
+  color: #ffffff;
+  text-align: left;
 }
 
 .styled-table th,
 .styled-table td {
-    padding: 12px min(50px, 1vw);
-    white-space: nowrap;
-    text-align: center;
+  padding: 12px min(50px, 1vw);
+  text-align: center;
 }
 
 .styled-table tbody tr {
-    border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+  background-color: #f3f3f3;
 }
 
 .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #101130;
+  border-bottom: 2px solid #101130;
 }
 
 .styled-table tr:hover td {
-    background: linear-gradient(
-        to left,
-        rgba(247, 0, 104) 0%,
-        rgba(68, 16, 102, 1) 25%,
-        rgba(247, 0, 104, 1) 75%,
-        rgba(68, 16, 102, 1) 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  background: linear-gradient(
+    to left,
+    rgba(247, 0, 104) 0%,
+    rgba(68, 16, 102, 1) 25%,
+    rgba(247, 0, 104, 1) 75%,
+    rgba(68, 16, 102, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .table-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
