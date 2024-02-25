@@ -286,7 +286,7 @@ const reviewers = {
     "",
     "",
   ],
-  "Nimal K ": ["./images/metareviewers/Nimal K .jpeg", "", "", ""],
+  "Nimal K ": ["./images/metareviewers/Nimal K .jpeg", " eBay, USA", "", ""],
   "Dr. Shailesh Sivan": [
     "./images/metareviewers/Dr. Shailesh Sivan.jpeg",
     "Sacred Heart College, Thevara",
