@@ -104,7 +104,7 @@ const commOrganizing = [
   ],
   ["Prof. Biju Skaria", "Head", "Department of Computer Applications, MACE"],
   ["Prof. Rani Thomas", "Head", "Department of Mathematics, MACE"],
-  ["Dr. Arunkumar S.", "Head", "Department of Science and Humanities, MACE"],
+  ["Dr. Arunkumar S", "Head", "Department of Science and Humanities, MACE"],
 ];
 
 const commTechnical = [
@@ -153,7 +153,7 @@ const reviewers = {
     "",
     "",
   ],
-  "Dr. Deepa S. N.": [
+  "Dr. Deepa S. N": [
     "./images/metareviewers/Dr. Deepa S. N..png",
     "National Institute of Technology Calicut",
     "",
@@ -171,7 +171,7 @@ const reviewers = {
     "",
     "",
   ],
-  "Dr. Kala S.": [
+  "Dr. Kala S": [
     "./images/metareviewers/Dr. Kala S.jpeg",
     "IIIT Kottayam",
     "",
@@ -286,7 +286,12 @@ const reviewers = {
     "",
     "",
   ],
-  "Nimal K ": ["./images/metareviewers/Nimal K .jpeg", " eBay, USA", "", ""],
+  "Dr. Nimal K ": [
+    "./images/metareviewers/Nimal K .jpeg",
+    " eBay, USA",
+    "",
+    "",
+  ],
   "Dr. Shailesh Sivan": [
     "./images/metareviewers/Dr. Shailesh Sivan.jpeg",
     "Sacred Heart College, Thevara",
