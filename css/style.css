@@ -11728,7 +11728,7 @@ a {
 
 .guideline__camerapaper {
   font-size: 1.3rem;
-  color: #343a40;
+  /* color: #343a40; */
 }
 
 .guideline__camerapaper > * {
@@ -11749,10 +11749,13 @@ a {
 
 .guideline__text {
   margin-left: 5ch;
-  color: #343a40;
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.6em;
+}
+
+.guideline__step h4 {
+  color: #343a40;
 }
 
 .guideline__copyright > * {
