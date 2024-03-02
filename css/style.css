@@ -11726,15 +11726,6 @@ a {
   border-radius: 8px;
 }
 
-.payment {
-  width: max-content;
-  margin: 3rem auto 0 auto;
-}
-
-.payment img {
-  object-fit: contain;
-}
-
 .guideline__camerapaper {
   font-size: 1.3rem;
   color: #343a40;
