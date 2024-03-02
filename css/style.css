@@ -11735,6 +11735,45 @@ a {
   object-fit: contain;
 }
 
+.guideline__camerapaper {
+  font-size: 1.3rem;
+  color: #343a40;
+}
+
+.guideline__camerapaper > * {
+  list-style: disc;
+  margin-left: 3ch;
+  margin-block: 0.9rem;
+}
+
+.guideline__step__ol > * {
+  list-style: decimal;
+  margin-left: 4ch;
+  margin-block: 0.9rem;
+}
+
+.guideline__step > * {
+  margin-left: 3ch;
+}
+
+.guideline__text {
+  margin-left: 5ch;
+  color: #343a40;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6em;
+}
+
+.guideline__copyright > * {
+  list-style: disc;
+  margin-block: 0.9rem;
+  margin-left: 5ch;
+}
+
+.guideline__alert {
+  color: #303030;
+}
+
 @keyframes box-highlight {
   0% {
     box-shadow: 0;
