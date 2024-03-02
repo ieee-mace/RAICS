@@ -11726,13 +11726,76 @@ a {
   border-radius: 8px;
 }
 
-.payment {
-  width: max-content;
-  margin: 3rem auto 0 auto;
+.guideline__camerapaper {
+  font-size: 1.15rem;
+  /* color: #343a40; */
 }
 
-.payment img {
-  object-fit: contain;
+.guideline__camerapaper > * {
+  list-style: disc;
+  margin-left: 3ch;
+  padding-left: 0;
+  margin-block: 0.9rem;
+}
+
+.guideline__step__ol > * {
+  list-style: decimal;
+  margin-left: 4ch;
+  margin-block: 0.9rem;
+}
+
+.guideline__text {
+  margin-left: 4ch;
+  font-weight: 500;
+  font-size: 1.15rem;
+  line-height: 1.6em;
+}
+.guideline__step > * {
+  margin-left: 1ch;
+}
+
+.guideline__step h4 {
+  color: #343a40;
+}
+
+.guideline__copyright > * {
+  list-style: disc;
+  margin-block: 0.9rem;
+  margin-left: 5ch;
+}
+
+.guideline__alert {
+  color: #303030;
+}
+
+.register__fineprint {
+  text-align: center;
+  margin-top: -0.9rem;
+}
+
+.register__here__button {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register__button {
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: var(--pink);
+  color: var(--light);
+  transition: all 300ms ease-in-out;
+}
+
+.register__here__button :hover {
+  color: #000000;
+  transform: scale(1.03);
+}
+
+.register__here__button :focus {
+  transform: scale(0.97);
 }
 
 @keyframes box-highlight {
