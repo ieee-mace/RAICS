@@ -195,12 +195,6 @@ const reviewers = {
     "",
     "",
   ],
-  "Dr. Prabu M.": [
-    "./images/metareviewers/Dr. Prabu M..jpg",
-    "National Institute of Technology Calicut",
-    "",
-    "",
-  ],
   "Dr. Ragesh G K.": [
     "./images/metareviewers/Dr. Ragesh G K.jpeg",
     "IIIT Kottayam",
