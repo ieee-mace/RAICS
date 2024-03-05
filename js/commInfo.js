@@ -227,7 +227,7 @@ const reviewers = {
   ],
   "Dr. Sureka Mariam Varghese.": [
     "./images/metareviewers/Dr. Sureka Mariam Varghese.jpeg",
-    "NIT Tiruchirappalli",
+    "M A College of Engineering",
     "",
     "",
   ],
@@ -288,7 +288,7 @@ const reviewers = {
   ],
   "Dr. Shailesh Sivan": [
     "./images/metareviewers/Dr. Shailesh Sivan.jpeg",
-    "Sacred Heart College, Thevara",
+    "CUSAT",
     "",
     "",
   ],
@@ -313,6 +313,11 @@ const reviewers = {
   "Dr. Siddharth Shelly": [
     "./images/committee/Siddharth Shelly.jpg",
     "M A College of Engineering",
+    "",
+  ],
+  "Dr. S.Albert Alexander": [
+    "./images/metareviewers/Dr.S.Albert Alexander.jpg",
+    "VIT",
     "",
   ],
 };
