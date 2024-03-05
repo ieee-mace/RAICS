@@ -227,7 +227,7 @@ const reviewers = {
   ],
   "Dr. Sureka Mariam Varghese.": [
     "./images/metareviewers/Dr. Sureka Mariam Varghese.jpeg",
-    "MACE",
+    "M A College of Engineering",
     "",
     "",
   ],
