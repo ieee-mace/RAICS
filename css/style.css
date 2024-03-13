@@ -11824,12 +11824,11 @@ a {
     border: 1px solid #888888;
   }
 }
-
 /* Container styles */
 .scrolling-text-container {
-  margin-top: 20px;
   background-color: #eff5ff;
   border-radius: 4px;
+  margin-top:1rem;
   overflow: hidden;
 }
 
@@ -11839,33 +11838,26 @@ a {
   white-space: nowrap;
   font-size: 16px;
   font-weight: 600;
-  padding: 12px 0;
+  padding: 8px 0;
 }
 
 /* Text styles */
 .scrolling-text {
   display: flex;
-  width: 100vw;
 }
 
 .scrolling-text-item {
   padding: 0 30px;
-  color: #ef233c;
 }
 
 /* Apply the animation to the text items */
 .scrolling-text-inner > div {
-  transition: all 800ms ease-in-out;
   animation: var(--direction) var(--marquee-speed) linear infinite;
 }
 
 /* Pause the animation when a user hovers over it */
 .scrolling-text-container:hover .scrolling-text-inner > div {
   animation-play-state: paused;
-}
-
-.scrolling-text-inner > div :hover {
-  transform: scale(1.05);
 }
 
 /* Setting the Animation using Keyframes */
@@ -11875,13 +11867,13 @@ a {
   }
 
   100% {
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
 }
 
 @keyframes scroll-right {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
 
   100% {
