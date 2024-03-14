@@ -11828,7 +11828,7 @@ a {
 .scrolling-text-container {
   background-color: #eff5ff;
   border-radius: 4px;
-  margin-top:1rem;
+  margin-top: 1rem;
   overflow: hidden;
 }
 
@@ -11879,4 +11879,8 @@ a {
   100% {
     transform: translateX(100%);
   }
+}
+
+.accom__hotels > * {
+  list-style-type: disc !important;
 }
