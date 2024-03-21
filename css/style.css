@@ -2747,10 +2747,9 @@ img {
 }
 
 .image-container img {
-  width: 100%;
+  width: 90%;
   padding-top: 25px;
-  padding-bottom: 25px;
-  height: auto;
+  height: 90%;
   display: block;
 }
 
@@ -2767,10 +2766,12 @@ img {
     flex-direction: column;
     border: 0px;
   }
+  
   .image-container img {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 90%;
     display: block;
+    padding-left: 25px;
   }
 }
 .about-section {
