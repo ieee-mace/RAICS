@@ -99,19 +99,23 @@ const speakerInfo = {
     "./images/speakers/Shankar.png",
     "https://ed.iitm.ac.in/~shankarram",
     "Topic to be Announced",
-    "",
+    "C. S. Shankar Ram received his B.E. degree in Mechanical Engineering from Motilal Nehru Regional Engineering College, Allahabad, India, and M.S. and Ph.D. degrees from Texas A&M University, USA. He is currently a Professor and the V. Ramamurti Faculty Fellow with the Department of Engineering Design, IIT Madras, Chennai, India. He pursues research in the broad area of Vehicle Dynamics and Control with specific focus on Active Vehicle Safety. He has been involved with establishing academic programs at IIT Madras in the domain of automotive engineering and more recently in e-Mobility",
   ],
   "Dr. Jimson Mathew": [
     "./images/speakers/Jimson.jpg",
     "https://www.linkedin.com/in/dr-jimson-mathew-1511a816?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "Topic to be Announced",
-    "",
+    "Dr Jimson Mathew is a distinguished researcher and innovator in the fields of Fault-Tolerant Computing, VLSI Design, and Hardware Security. Holding a Ph.D. in Electrical Engineering from the University of Cambridge and receiving the prestigious Dorothy Hodgkin Doctoral Fellowship, Dr. Mathew's expertise spans academia and industry. With a remarkable track record of publications in top-tier conferences and journals, he has contributed significantly to advancing energy-efficient computing systems, fault-tolerant circuit designs, and hardware-based security solutions. Dr Mathew's work has garnered international recognition, including the UK Best Paper Award at the International Conference on Embedded Systems Mobile Communication and Computing. His extensive experience and innovative research contributions make him a highly sought-after expert in the field.",
   ],
   "Eby K. Kuriakose": [
     "./images/speakers/Eby.jpg",
     "https://www.linkedin.com/in/ebykkuriakose/",
     "Topic to be Announced",
-    "",
+    `Mr.Eby Kuriakose is an accomplished IT professional with a solid educational background and extensive work experience. Holding a Bachelor's degree in Computer Science from Bharathidasan University and an Executive Postgraduate Certificate in Strategic Management from IIM Kozhikode, Mr.Eby has honed his skills in both technical and strategic domains. With over 18 years of hands-on experience, he has held key roles at Microsoft and Goldman Sachs, specializing in enterprise platform support and cloud platforms. Currently serving as a Senior Solution Architect at Amazon Web Services (AWS), Mr.Eby leverages his diverse expertise to design and implement cutting-edge solutions for enterprise clients, contributing significantly to their digital transformation journey.
+    <br><br>
+    <b>Cloud</b> 
+    <br><br>
+    Cloud computing revolutionizes the way businesses manage and deliver IT resources over the internet. Instead of owning physical hardware and managing on-premises data centers, organizations can access computing power, storage, and other services on-demand from cloud providers. Amazon Web Services (AWS) stands out as a leading cloud platform, offering a vast array of services such as computing power with Amazon EC2, scalable storage with Amazon S3, and managed databases with Amazon RDS. AWS enables businesses to innovate rapidly, scale seamlessly, and reduce costs by paying only for the resources they consume. With its global reach and robust security features, AWS empowers businesses of all sizes to build and deploy applications with agility and efficiency in today's digital landscape.`,
   ],
   "Dr. Jobin Francis": [
     "./images/speakers/Jobin.png",
@@ -122,7 +126,16 @@ const speakerInfo = {
   "Dr. Jayakumar M ": [
     "./images/speakers/Jayakumar1.jpg",
     "",
-    "Topic to be Announced",
-    "",
+    "Reusable Satellite Launch Vehicles",
+    `Dr. Jayakumar M is currently working as Project Director PSLV.  He was the mission Director of the successful PSLV C58/XPoSat Mission launched on January 1st, 2024.  Earlier, he led the team that was entrusted with the challenging task of developing a Reusable Launch Vehicle for ISRO. A Scientist/Engineer in ISRO with 32 years of experience he has earlier worked in the field of Tracking radars, Development of control electronics for actuation systems, Development of Indigenous angular motion simulators, Flush Air Data Systems and Avionics systems for Reusable Launch Vehicles.
+    <br><br>
+    He was the mission Director of the successful RLV Landing Experiment carried out at ATR, Chitradurga on April 2nd 2023.   This was the fastest landing of an Aircraft on a runway in India. He was also the Vehicle Director of the successful RLV-TD flight of ISRO on May 23rd, 2016 which was the first hypersonic flight of an Aircraft from Indian Soil. 
+    <br><br>
+    He holds two US patents for his invention on “Fault detection in pressure sensing of Flush Air Data System” which has also been patented in Russia, China, Japan and 30 European countries. 
+    <br><br>
+    He is an approved research guide for Ph.D in University of Kerala, Anna University and Cochin University of Science and Technology and has over 55 publications in National and International conferences and Journals including IEEE Transactions. One of his papers received the best paper award at the IEEE Conference, 2006, Busan, Korea.
+    <br><br>
+    He is the recipient of the Devi Singh Tyagi National Award 2017 of Institute of Electronics and Telecommunication Engineers and has also received the ISRO team award 2016 for the successful RLV-TD launch.
+    `,
   ],
 };

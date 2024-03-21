@@ -270,3 +270,19 @@ p.committee__designation {
   filter: invert(100%);
   transform: scale(1.07);
 }
+
+@media all and (max-width: 870px) {
+  .speaker__card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .speaker__img {
+    max-width: 25%;
+    min-width: 120px;
+  }
+}
+@media all and (max-width: 760px) {
+  .speaker__about {
+    font-size: 0.7rem;
+  }
+}
