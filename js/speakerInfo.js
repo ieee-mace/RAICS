@@ -95,12 +95,12 @@ const speakerInfo = {
     can be introduced for the participants and they can learn Machine learning, GenAI
     and SYCL (HPC) through the Intel Developer Cloud.`,
   ],
-  "Dr. C. S. Shankar Ram": [
-    "./images/speakers/Shankar.png",
-    "https://ed.iitm.ac.in/~shankarram",
-    "Topic to be Announced",
-    "C. S. Shankar Ram received his B.E. degree in Mechanical Engineering from Motilal Nehru Regional Engineering College, Allahabad, India, and M.S. and Ph.D. degrees from Texas A&M University, USA. He is currently a Professor and the V. Ramamurti Faculty Fellow with the Department of Engineering Design, IIT Madras, Chennai, India. He pursues research in the broad area of Vehicle Dynamics and Control with specific focus on Active Vehicle Safety. He has been involved with establishing academic programs at IIT Madras in the domain of automotive engineering and more recently in e-Mobility",
-  ],
+  // "Dr. C. S. Shankar Ram": [
+  //   "./images/speakers/Shankar.png",
+  //   "https://ed.iitm.ac.in/~shankarram",
+  //   "Topic to be Announced",
+  //   "C. S. Shankar Ram received his B.E. degree in Mechanical Engineering from Motilal Nehru Regional Engineering College, Allahabad, India, and M.S. and Ph.D. degrees from Texas A&M University, USA. He is currently a Professor and the V. Ramamurti Faculty Fellow with the Department of Engineering Design, IIT Madras, Chennai, India. He pursues research in the broad area of Vehicle Dynamics and Control with specific focus on Active Vehicle Safety. He has been involved with establishing academic programs at IIT Madras in the domain of automotive engineering and more recently in e-Mobility",
+  // ],
   "Dr. Jimson Mathew": [
     "./images/speakers/Jimson.jpg",
     "https://www.linkedin.com/in/dr-jimson-mathew-1511a816?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -117,12 +117,12 @@ const speakerInfo = {
     <br><br>
     Cloud computing revolutionizes the way businesses manage and deliver IT resources over the internet. Instead of owning physical hardware and managing on-premises data centers, organizations can access computing power, storage, and other services on-demand from cloud providers. Amazon Web Services (AWS) stands out as a leading cloud platform, offering a vast array of services such as computing power with Amazon EC2, scalable storage with Amazon S3, and managed databases with Amazon RDS. AWS enables businesses to innovate rapidly, scale seamlessly, and reduce costs by paying only for the resources they consume. With its global reach and robust security features, AWS empowers businesses of all sizes to build and deploy applications with agility and efficiency in today's digital landscape.`,
   ],
-  "Dr. Jobin Francis": [
-    "./images/speakers/Jobin.png",
-    "https://iitpkd.ac.in/people/jobinfrancis",
-    "Topic to be Announced",
-    "",
-  ],
+  // "Dr. Jobin Francis": [
+  //   "./images/speakers/Jobin.png",
+  //   "https://iitpkd.ac.in/people/jobinfrancis",
+  //   "Topic to be Announced",
+  //   "",
+  // ],
   "Dr. Jayakumar M ": [
     "./images/speakers/Jayakumar1.jpg",
     "",
