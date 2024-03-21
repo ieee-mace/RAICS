@@ -2766,7 +2766,11 @@ img {
   font-size: x-large;
 }
 
-
+@media only screen and (max-width: 767px) {
+  #inag h2 {
+      text-align: left;
+  }
+}
 
 
 
