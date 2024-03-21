@@ -2733,7 +2733,7 @@ img {
 ***/
 #section-container {
   padding-top: 25px;
-  width: 75%; 
+  width: 60%; 
   margin: 0 auto; 
 }
 
@@ -2754,6 +2754,7 @@ img {
   height: auto; 
   display: block;
   padding-top: 25px;
+  padding-bottom: 10px;
 }
 
 .content-container {
@@ -2762,7 +2763,7 @@ img {
 }
 
 .content-container h2 {
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 
