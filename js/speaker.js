@@ -14,6 +14,7 @@ function speakerCard(name, speaker) {
 
   const speakerMoreInfo = document.createElement("img");
   speakerMoreInfo.setAttribute("class", "speaker__moreinfo");
+  speakerMoreInfo.setAttribute("title", "Know More About Speaker");
   speakerMoreInfo.setAttribute("src", "images/know_more.png");
 
   const speakerContent = document.createElement("div");

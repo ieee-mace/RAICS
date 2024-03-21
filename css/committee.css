@@ -277,12 +277,14 @@ p.committee__designation {
     align-items: center;
   }
   .speaker__img {
+    padding: 0.5rem;
     max-width: 25%;
     min-width: 120px;
+    border-radius: 15px;
   }
 }
 @media all and (max-width: 760px) {
   .speaker__about {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
 }

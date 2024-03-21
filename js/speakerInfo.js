@@ -104,13 +104,13 @@ const speakerInfo = {
   "Dr. Jimson Mathew": [
     "./images/speakers/Jimson.jpg",
     "https://www.linkedin.com/in/dr-jimson-mathew-1511a816?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "Topic to be Announced",
+    "Machine Learning in Medical Image processing",
     "Dr Jimson Mathew is a distinguished researcher and innovator in the fields of Fault-Tolerant Computing, VLSI Design, and Hardware Security. Holding a Ph.D. in Electrical Engineering from the University of Cambridge and receiving the prestigious Dorothy Hodgkin Doctoral Fellowship, Dr. Mathew's expertise spans academia and industry. With a remarkable track record of publications in top-tier conferences and journals, he has contributed significantly to advancing energy-efficient computing systems, fault-tolerant circuit designs, and hardware-based security solutions. Dr Mathew's work has garnered international recognition, including the UK Best Paper Award at the International Conference on Embedded Systems Mobile Communication and Computing. His extensive experience and innovative research contributions make him a highly sought-after expert in the field.",
   ],
   "Eby K. Kuriakose": [
     "./images/speakers/Eby.jpg",
     "https://www.linkedin.com/in/ebykkuriakose/",
-    "Topic to be Announced",
+    "Introduction to Cloud Computing ",
     `Mr.Eby Kuriakose is an accomplished IT professional with a solid educational background and extensive work experience. Holding a Bachelor's degree in Computer Science from Bharathidasan University and an Executive Postgraduate Certificate in Strategic Management from IIM Kozhikode, Mr.Eby has honed his skills in both technical and strategic domains. With over 18 years of hands-on experience, he has held key roles at Microsoft and Goldman Sachs, specializing in enterprise platform support and cloud platforms. Currently serving as a Senior Solution Architect at Amazon Web Services (AWS), Mr.Eby leverages his diverse expertise to design and implement cutting-edge solutions for enterprise clients, contributing significantly to their digital transformation journey.
     <br><br>
     <b>Cloud</b> 
