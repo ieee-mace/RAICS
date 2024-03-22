@@ -199,20 +199,20 @@ p.committee__designation {
 }
 
 .speaker__container {
-  height: 300dvh;
+  height: auto;
   width: 80%;
   max-width: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
 }
 
 .speaker__card {
   position: relative;
   display: flex;
-  height: 400px;
+  height: 325px;
   border-radius: 9px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
@@ -224,28 +224,10 @@ p.committee__designation {
   object-position: top;
 }
 
-.speaker__content {
-  width: 100%;
-}
-
 .speaker__info {
   color: rgb(220, 220, 220);
   background-color: #101130;
   padding: 1rem;
-}
-.speaker__elaborate {
-  padding: 1rem;
-  height: 200px;
-  margin-block: 0.3rem;
-  overflow: scroll;
-  scroll-behavior: smooth;
-}
-.speaker__about {
-  line-height: 2.5ch;
-  text-align: left;
-  word-wrap: break-word; /* Allow long words to break and wrap */
-  white-space: pre-line; /* Preserve line breaks */
-  padding: 0.3rem 0.7rem;
 }
 
 .speaker__name {
@@ -253,8 +235,25 @@ p.committee__designation {
   font-size: clamp(0.15rem, 0.4774rem + 1.1vw, 1.2rem);
   margin-bottom: 0;
 }
+
 .speaker__topic {
   font-size: clamp(0.3rem, 0.8774rem + 1.1vw, 1.7rem);
+}
+
+.speaker__content {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-rows: 2fr 4fr;
+}
+
+.speaker__about {
+  text-align: justify;
+  line-height: 2.5ch;
+  padding: 1.2rem;
+  word-wrap: break-word; /* Allow long words to break and wrap */
+  white-space: pre-line; /* Preserve line breaks */
+  overflow-y: auto;
 }
 
 .speaker__moreinfo {
@@ -273,8 +272,10 @@ p.committee__designation {
 
 @media all and (max-width: 870px) {
   .speaker__card {
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 360px;
+    height: 500px;
   }
   .speaker__img {
     padding: 0.5rem;
@@ -283,6 +284,7 @@ p.committee__designation {
     border-radius: 15px;
   }
 }
+
 @media all and (max-width: 760px) {
   .speaker__about {
     font-size: 0.85rem;
