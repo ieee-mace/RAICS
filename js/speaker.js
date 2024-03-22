@@ -31,19 +31,20 @@ function speakerCard(name, speaker) {
   speakerName.setAttribute("class", "speaker__name");
   speakerName.innerText = `~ ${name}`;
 
-  const speakerElaborate = document.createElement("div");
-  speakerElaborate.setAttribute("class", "speaker__elaborate");
+  // const speakerElaborate = document.createElement("div");
+  // speakerElaborate.setAttribute("class", "speaker__elaborate");
 
   const speakerAbout = document.createElement("p");
   speakerAbout.setAttribute("class", "speaker__about");
   const formattedText = speaker[3].replace(/\n\s*/g, " ");
   speakerAbout.innerHTML = formattedText;
 
-  speakerElaborate.append(speakerAbout);
+  // speakerElaborate.append(speakerAbout);
   speakerInfo.append(speakerTopic);
   speakerInfo.append(speakerName);
   speakerContent.append(speakerInfo);
-  speakerContent.append(speakerElaborate);
+  // speakerContent.append(speakerElaborate);
+  speakerContent.append(speakerAbout);
   card.append(speakerImg);
   speakerInfoLink.append(speakerMoreInfo);
   card.append(speakerInfoLink);
