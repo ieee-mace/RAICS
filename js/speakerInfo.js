@@ -104,8 +104,8 @@ const speakerInfo = {
   "Dr. Jimson Mathew": [
     "./images/speakers/Jimson.jpg",
     "https://www.linkedin.com/in/dr-jimson-mathew-1511a816?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "Machine Learning in Medical Image processing",
-    "Dr Jimson Mathew is a distinguished researcher and innovator in the fields of Fault-Tolerant Computing, VLSI Design, and Hardware Security. Holding a Ph.D. in Electrical Engineering from the University of Cambridge and receiving the prestigious Dorothy Hodgkin Doctoral Fellowship, Dr. Mathew's expertise spans academia and industry. With a remarkable track record of publications in top-tier conferences and journals, he has contributed significantly to advancing energy-efficient computing systems, fault-tolerant circuit designs, and hardware-based security solutions. Dr Mathew's work has garnered international recognition, including the UK Best Paper Award at the International Conference on Embedded Systems Mobile Communication and Computing. His extensive experience and innovative research contributions make him a highly sought-after expert in the field.",
+    "Deep Fake: Navigating the New Frontier of Digital Deception, Implications, and Detection Strategies",
+    "Deepfakes represent a significant advancement in digital manipulation, posing multifaceted implications across various sectors. From politics to entertainment, the proliferation of deepfake content threatens to erode trust and manipulate public perception. Detecting deepfakes presents a considerable challenge, requiring innovative approaches such as machine learning algorithms and forensic analysis techniques. Collaboration between stakeholders is crucial to developing effective detection strategies and promoting digital literacy to mitigate the negative impacts of deepfake technology. Addressing these challenges is essential to safeguarding the integrity of information and preserving trust in the digital landscape. <br><br>Jimson Mathew is currently  professor in the Computer Science and Engineering, Indian Institute of Technology Patna, India.  He served as head of the department of CSE from 2017 to 2021. He received the Masters in computer engineering from Nanyang Technological University, Singapore and the Ph.D. degree in computer engineering from the University of Bristol, Bristol, U.K. He has held positions with the Centre for Wireless Communications, National University of Singapore, Bell Laboratories Research Lucent Technologies North Ryde, Australia, Royal Institute of Technology KTH, Stockholm, Sweden and Department of Computer Science, University of Bristol, UK.  He is a Senior Memberof IEEE. He has previously served as a Guest Editor for ACM TECS. He also regularly serves on the program committeeof top international conferences and  holds multiple patents. His research interests include fault-tolerant computing, computer vision, machine learning.",
   ],
   "Eby K. Kuriakose": [
     "./images/speakers/Eby.jpg",
@@ -117,12 +117,14 @@ const speakerInfo = {
     <br><br>
     Cloud computing revolutionizes the way businesses manage and deliver IT resources over the internet. Instead of owning physical hardware and managing on-premises data centers, organizations can access computing power, storage, and other services on-demand from cloud providers. Amazon Web Services (AWS) stands out as a leading cloud platform, offering a vast array of services such as computing power with Amazon EC2, scalable storage with Amazon S3, and managed databases with Amazon RDS. AWS enables businesses to innovate rapidly, scale seamlessly, and reduce costs by paying only for the resources they consume. With its global reach and robust security features, AWS empowers businesses of all sizes to build and deploy applications with agility and efficiency in today's digital landscape.`,
   ],
-  // "Dr. Jobin Francis": [
-  //   "./images/speakers/Jobin.png",
-  //   "https://iitpkd.ac.in/people/jobinfrancis",
-  //   "Topic to be Announced",
-  //   "",
-  // ],
+  "Dr. Jobin Francis": [
+    "./images/speakers/Jobin.png",
+    "https://iitpkd.ac.in/people/jobinfrancis",
+    "Evolution of Cellular Networks Beyond 5G: Requirements and Enabling Technologies",
+    `The evolution of cellular technologies has been remarkable with each generation pushing the boundaries of connectivity and communication. With the rapid deployment and adoption of 5G worldwide, attention is gradually shifting towards what lies beyond. While it may be too early to specify the requirements, the next generation of cellular networks is expected to provide ultra-high data rates, ultra-low latency, massive connectivity, security, and privacy. From the Shannon fundamental limit of communication, we try to understand how the different enabling technologies try to fulfill these requirements. As a key enabling technology, cell-free massive multiple-input-multiple-output shall be discussed along with some perspectives on the future of cellular communication.
+    <br><br>
+     Dr. Jobin Francis received BTech degree in Electronics and Communication from the College of Engineering Trivandrum in 2009, ME degree in Signal Processing, and Ph.D. degree in Electrical Communication Engineering from the Indian Institute of Science, Bangalore, in 2011 and 2017, respectively. He was a post-doctoral research fellow at Vodafone Chair of Mobile Communications at TU Dresden, Germany, for 2 years. He is currently an Assistant Professor in the Department of Electrical Engineering at the Indian Institute of Technology Palakkad. His research interests are broadly in wireless communication with special emphasis on the design and performance analysis of 5G and beyond next-generation cellular systems.`,
+  ],
   "Dr. Jayakumar M ": [
     "./images/speakers/Jayakumar1.jpg",
     "",
