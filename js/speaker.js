@@ -7,6 +7,7 @@ function speakerCard(name, speaker) {
   const speakerImg = document.createElement("img");
   speakerImg.setAttribute("class", "speaker__img");
   speakerImg.setAttribute("src", speaker[0]);
+  speakerImg.setAttribute("alt", name);
 
   const speakerInfoLink = document.createElement("a");
   speakerInfoLink.setAttribute("href", speaker[1]);
