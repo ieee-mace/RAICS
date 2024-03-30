@@ -95,12 +95,12 @@ const speakerInfo = {
     can be introduced for the participants and they can learn Machine learning, GenAI
     and SYCL (HPC) through the Intel Developer Cloud.`,
   ],
-  // "Dr. C. S. Shankar Ram": [
-  //   "./images/speakers/Shankar.png",
-  //   "https://ed.iitm.ac.in/~shankarram",
-  //   "Topic to be Announced",
-  //   "C. S. Shankar Ram received his B.E. degree in Mechanical Engineering from Motilal Nehru Regional Engineering College, Allahabad, India, and M.S. and Ph.D. degrees from Texas A&M University, USA. He is currently a Professor and the V. Ramamurti Faculty Fellow with the Department of Engineering Design, IIT Madras, Chennai, India. He pursues research in the broad area of Vehicle Dynamics and Control with specific focus on Active Vehicle Safety. He has been involved with establishing academic programs at IIT Madras in the domain of automotive engineering and more recently in e-Mobility",
-  // ],
+  "Dr. C. S. Shankar Ram": [
+    "./images/speakers/Shankar.png",
+    "https://ed.iitm.ac.in/~shankarram",
+    " Overview of Control Systems",
+    "C. S. Shankar Ram received his B.E. degree in Mechanical Engineering from Motilal Nehru Regional Engineering College, Allahabad, India, and M.S. and Ph.D. degrees from Texas A&M University, USA. He is currently a Professor and the V. Ramamurti Faculty Fellow with the Department of Engineering Design, IIT Madras, Chennai, India. He pursues research in the broad area of Vehicle Dynamics and Control with specific focus on Active Vehicle Safety. He has been involved with establishing academic programs at IIT Madras in the domain of automotive engineering and more recently in e-Mobility",
+  ],
   "Dr. Jimson Mathew": [
     "./images/speakers/Jimson.jpg",
     "https://www.linkedin.com/in/dr-jimson-mathew-1511a816?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
