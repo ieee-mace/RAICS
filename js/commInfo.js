@@ -20,7 +20,7 @@ const GeneralChairs = {
   "Dr. Varghese Cherian": [
     "./images/committee/Er. Varghese Cherian.jpg",
     "",
-    "IEEE SSIT Kerala Chapter",
+    "Head of Technlogy Services ,UST Global",
   ],
 };
 
@@ -93,7 +93,7 @@ const commOrganizing = [
     "Department of Electrical and Electronics Engineering, MACE",
   ],
   [
-    "Dr. Thomas George",
+    "Dr. Aji Joy",
     "Head",
     "Department of Electronics and Communication Engineering, MACE",
   ],
