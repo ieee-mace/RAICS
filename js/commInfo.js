@@ -18,9 +18,9 @@ const GeneralChairs = {
     "Department of Electronics and Communication, MACE",
   ],
   "Dr. Varghese Cherian": [
-    "./images/committee/Er. Varghese Cherian.jpg",
+    "./images/committee/Varghese Cherian.jpeg",
     "",
-    "Head of Technlogy Services ,UST Global",
+    "Head of Technlogy Services ,UST",
   ],
 };
 
