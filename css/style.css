@@ -11937,9 +11937,15 @@ a {
 }
 
 .presentation__sch {
-  display: grid;
-  place-items: center;
-  margin: 3rem 0 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 60%;
+  max-width: 900px;
+  margin-block: 3rem 1rem;
+  margin-inline: auto;
 }
 
 .presentation__sch a button {
