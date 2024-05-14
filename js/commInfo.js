@@ -17,7 +17,7 @@ const GeneralChairs = {
     "",
     "Department of Electronics and Communication, MACE",
   ],
-  "Dr. Varghese Cherian": [
+  "Er. Varghese Cherian": [
     "./images/committee/Varghese Cherian.jpeg",
     "",
     "Head of Technlogy Services ,UST",
